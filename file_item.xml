@@ -1,0 +1,8 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dir_name_holder"
+    android:textSize="30sp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+</TextView>

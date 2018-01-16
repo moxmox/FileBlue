@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    tools:context="com.example.zemcd.fileblue.BluetoothAuthActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_weight=".2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="@string/bluetooth_auth_request"/>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/authAcceptButton"
+            android:text="Accept"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/close_button"
+            android:text="close"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_toStartOf="@id/authAcceptButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

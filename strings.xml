@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FileBlue</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Devices</string>
+    <string name="button_scan">Scan</string>
+    <string name="title_scanning">Scanning . . . </string>
+    <string name="file_choice">Choose File:</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_up">Back</string>
+    <string name="snackbar_confirm">Ok</string>
+    <string name="bluetooth_auth_request">
+        This application enables \n
+     your devices Bluetooth when\n
+        it is opened and deactivates\n
+    Bluetooth when you leave the app.\n
+    By continueing to use this software\n
+    you are consenting to have\n
+    this application turn your Bluetooth\n
+    off/on without being prompted again\n
+    for permission</string>
+</resources>
